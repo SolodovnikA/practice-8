@@ -1,0 +1,11 @@
+rez = int(input())
+m_rez = 0
+count = 0
+
+while rez != -1:
+    rez = int(input())
+    count += 1
+    if m_rez < rez:
+        m_rez = rez
+
+print(count)
